@@ -2,9 +2,8 @@
 
 int compute_polish_expression (char *c) {
   Stack *s = create(strlen(c));
-  /*Terminar*/
-  /*....*/
-  //return sol;
+  for(int i = 0; c[i] != '\0'; i++){
+  }
 }
 
 int main () {
