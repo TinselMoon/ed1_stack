@@ -20,7 +20,7 @@ void reversed_polish_notation (char *c) {
 }
 
 int main () {
-  char *c = "((( 9 + ( ( 0 + 1 ) * ( 2 * 3 ) )) + 9) + (7 * (4 + 3)))";
+  char *c = "( 9 + ( ( 0 + 1 ) * ( 2 * 3 ) ))";
   reversed_polish_notation (c);
   return 0;
 }
